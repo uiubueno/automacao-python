@@ -28,6 +28,8 @@ import time
 
 database = pandas.read_csv("produtos.csv")
 
+print(database)
+
 time.sleep(2)
 
 for line in database.index: 
